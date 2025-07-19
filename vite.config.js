@@ -171,6 +171,7 @@ const addTransformIndexHtml = {
 console.warn = () => {};
 
 export default defineConfig({
+	base: '/Portfolio/', // ✅ Add this line
 	plugins: [react(), addTransformIndexHtml],
 	server: {
 		cors: true,

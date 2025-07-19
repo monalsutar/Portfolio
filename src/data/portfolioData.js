@@ -21,7 +21,7 @@ export const portfolioData = {
     github: "https://github.com/monalsutar", // Placeholder - Replace with actual link
   },
   skills: [
-    { category: "Languages", items: ["C","C++", "Java", "HTML", "CSS", "JavaScript", "Dart"] },
+    { category: "Languages", items: ["C","C++", "Java", "HTML", "CSS", "JavaScript"] },
     { category: "Technologies", items: ["Node JS", "React JS"] },
     { category: "Databases", items: ["SQL", "Firebase", "MongoDB"] },
     { category: "Frameworks & Tools", items: ["Android SDK", "Flutter","Xcode", "Android Studio"] },
@@ -32,6 +32,12 @@ export const portfolioData = {
       company: "Google Developers Students Club (GDSC) RIT",
       duration: "Ongoing",
       description: "Contributed to Android development projects within the GDSC chapter.",
+    },
+    {
+      role: "MERN Developer",
+      company: "CodeXLabz Technologies",
+      duration: "Jan - Jun 2025",
+      description: "Learned about Web Development, and developed 'Communion Hub' MERN project",
     },
     {
       role: "Web Development Intern",
@@ -65,6 +71,12 @@ export const portfolioData = {
       description: "Developed a Flutter-based mobile application for billing and invoicing for SMBs. Features include real-time product management, PDF invoice generation, and email integration for Android and iOS.",
       tech: ["Flutter", "Dart", "Firebase"],
       link: "https://github.com/monalsutar/BillDesk", // Placeholder
+    },
+    {
+      title: "Communion Hub",
+      description: " CommunionHub is a full stack web application designed to allow authenticated users to create and manage community events while allowing all users—authenticated or not—to freely browse and view events.",
+      tech: ["MongoDB", "Express", "React JS", "Node JS"],
+      link: "https://github.com/monalsutar/CommunionHub-MERN", // Placeholder
     },
     {
       title: "E-Waste Management Website",
@@ -102,8 +114,8 @@ export const portfolioData = {
      {
       degree: "Bachelor's Degree in Computer Science and Engineering",
       institution: "Rajarambapu Institute of Technology, Islampur (Shivaji University)",
-      duration: "Pursuing (Final Year Sem VIII - 2025)",
-      grade: "8.70 CPI (Sem VII)",
+      duration: "2022 - 2025",
+      grade: "8.66 CPI",
     },
     {
       degree: "Diploma in Engineering",
@@ -122,6 +134,8 @@ export const portfolioData = {
     "Won First prize in Event Web Designing at Bharti Vidyapeeth College of Engineering, Kolhapur.",
     "Won First prize in 'Art Gallery Essay Competition' Event organized by ISTE RIT, Islampur.",
     "Got 10th Rank in Webnatic arranged by Walchand College, Sangli.",
+    "50 Days Badge 2025 on Leetcode",
+    "145+ Problems solved on GFG",
   ],
   participations: [
     "CSESA Core Committee Coordinator",
